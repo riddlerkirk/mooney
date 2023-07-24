@@ -1,0 +1,92 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+.cover{
+	width:1000px;
+	border:5px #4682B4 solid;
+	margin:auto;
+	background:#00BFFF;
+	padding:10px;
+	border-radius:20px;	
+	
+}
+	h1{color:white;
+		background:#4682B4;
+		text-align:center;
+		border-radius:10px 20px;
+		animation-name:mooney;
+		animation-duration:4s;
+		
+	}
+	@keyframes mooney {
+		from {color:white;background:#9FE2BF;}
+		to {color:#9FE2BF;background:#4682B4;}
+		
+	}
+	h2.center{text-align:center;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#4682B4;
+		background:#9FE2BF;
+		border-radius:40px 10px;}
+	h2.lst{text-align:center;
+	width:500px;
+	
+	color:#4682B4;
+		background:#9FE2BF;
+		border-radius:0px 10px;}	
+	
+#tbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left:auto;
+	margin-right:auto;
+}
+
+#tbl td, #tbl th {
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+#tbl tr{background-color: #f2f2f2;}
+
+
+
+#tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  
+}
+ nav {
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
